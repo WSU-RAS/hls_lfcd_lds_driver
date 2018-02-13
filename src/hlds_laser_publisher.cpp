@@ -90,7 +90,7 @@ void LFCDLaser::poll(sensor_msgs::LaserScan::Ptr scan)
         scan->angle_min = 0.0;
         scan->angle_max = 2.0*M_PI;
         scan->angle_increment = (2.0*M_PI/360.0);
-        scan->range_min = 0.1651;
+        scan->range_min = 0.1778;
         scan->range_max = 3.5;
         scan->ranges.resize(360);
         scan->intensities.resize(360);
