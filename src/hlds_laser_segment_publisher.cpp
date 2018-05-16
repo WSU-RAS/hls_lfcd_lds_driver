@@ -67,7 +67,7 @@ LFCDLaser::LFCDLaser(boost::asio::io_service& io)
   scan_.angle_min = 0.0;
   scan_.angle_max = 2.0*M_PI;
   scan_.angle_increment = (2.0*M_PI/360.0);
-  scan_.range_min = 0.1778;
+  scan_.range_min = 0.19;
   scan_.range_max = 3.5;
   scan_.ranges.resize(360);
   scan_.intensities.resize(360);
